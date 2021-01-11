@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: darkgray;
+}
+.main-header{
+  
+    background-image: url(img2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 72px;
+    padding-top: 88px;
+   }
+
+
+footer.main-footer{
+    background-color: #292929;
+    color: white;
+    padding-top: 35px;
+   
+    
+}
+aside.footer-widget{
+    margin-bottom: 25px;
+}
+aside.footer-widget h5{
+    font-size: 1em;
+}
+aside.footer-widget ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+aside.footer-widget ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: wheat;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+address h2{
+    font-size: 20px;
+
+}
+address p{
+    font-size: 14px;
+}
+section.copy{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 63px;
+}
+section.copy p{
+    margin: 0px;
+}
+.main-content{
+    width: 100%;
+  height: auto;
+}
+.hour .img-fluid{
+    width: 50px;
+    
+}
+.profile .img-fluid{
+    width: 150px;
+    padding: 0px;
+    
+}
+
+.hour{
+    text-align: center;
+    background-color: white;
+    margin: 20px 0px;
+}
+.profile{
+    margin: 20px 0px;
+}
+@media only screen and (max-width: 600px) {
+    .profile {
+        padding: 0px 29px;
+    }
+  }
